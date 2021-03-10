@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+  letter-spacing: 2px;
+}
+
+:root {
+  height: 100vh;
+  width: 100vw;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-size: 100% 100%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+  width: 100%;
+  font-size: 60px;
+  letter-spacing: 4px;
+}
+
+.game-score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 30px;
+}
+
+.flag-score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 30px;
+}
+
+.grid-container {
+  height: 60vh;
+  width: 40%;
+  margin-bottom: 0;
+  cursor: pointer;
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.result-display {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+button {
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 auto;
+}
